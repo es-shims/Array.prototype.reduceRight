@@ -5,6 +5,24 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.3](https://github.com/es-shims/Array.prototype.reduceRight/compare/v1.0.2...v1.0.3) - 2021-10-01
+
+### Commits
+
+- [actions] use `node/install` instead of `node/run`; use `codecov` action [`e0a7026`](https://github.com/es-shims/Array.prototype.reduceRight/commit/e0a70260d28376983d5162b42f4916cf77d6207f)
+- [Deps] update `es-abstract` [`2ce67ff`](https://github.com/es-shims/Array.prototype.reduceRight/commit/2ce67ff11475e07b03d59457f89a1b702decee21)
+- [readme] remove travis badge [`f298762`](https://github.com/es-shims/Array.prototype.reduceRight/commit/f2987628854887961d8d425ae21d695c6ac210df)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `@es-shims/api`, `aud`, `auto-changelog`, `tape` [`efe3c84`](https://github.com/es-shims/Array.prototype.reduceRight/commit/efe3c84c964a0d7db68165eeb1a72cbbe20c0069)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `aud`, `functions-have-names`, `has-strict-mode`, `tape` [`ba05cff`](https://github.com/es-shims/Array.prototype.reduceRight/commit/ba05cffe9134df70b080de4d139f988e22c6f8dd)
+- [Dep] move `is-string` to prod deps [`f78c045`](https://github.com/es-shims/Array.prototype.reduceRight/commit/f78c045133078fe81cc8357aa0a2ebc50e08dca3)
+- [actions] update workflows [`a26ca6a`](https://github.com/es-shims/Array.prototype.reduceRight/commit/a26ca6ad25b99e8760a5b6ebfc9929f4ad3b9476)
+- [readme] add github actions/codecov badges [`2c388a5`](https://github.com/es-shims/Array.prototype.reduceRight/commit/2c388a5a17bcf6951364c8f660962243b0b1bd73)
+- [Dev Deps] update `eslint`, `tape` [`867bf4d`](https://github.com/es-shims/Array.prototype.reduceRight/commit/867bf4da92f60cb6f4a49c778e3207262f7e33ba)
+- [Deps] update `call-bind`, `es-abstract` [`2b4a286`](https://github.com/es-shims/Array.prototype.reduceRight/commit/2b4a2860e0ca22139bc6bb5bb19f653fae15210a)
+- [meta] use `prepublishOnly` script for npm 7+ [`380d87e`](https://github.com/es-shims/Array.prototype.reduceRight/commit/380d87e5e661825e47f3ab100ecb6b1efc0534d2)
+- [Tests] increase coverage [`e6af3b8`](https://github.com/es-shims/Array.prototype.reduceRight/commit/e6af3b86bdb9f01851db04f592d460ee1d5edd98)
+- [Deps] update `es-abstract` [`96880a6`](https://github.com/es-shims/Array.prototype.reduceRight/commit/96880a67bfc79f1048c77836489b544fbc691a20)
+
 ## [v1.0.2](https://github.com/es-shims/Array.prototype.reduceRight/compare/v1.0.1...v1.0.2) - 2020-11-19
 
 ### Commits
