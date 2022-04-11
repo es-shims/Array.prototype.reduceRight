@@ -192,4 +192,66 @@ module.exports = function (reduceRight, t) {
 
 		st.end();
 	});
+
+	t.test('test262: 15.4.4.22-3-12', function (st) {
+		var testResult1 = true;
+		var testResult2 = false;
+
+		var obj = {
+			0: 11,
+			1: 12,
+			2: 9,
+			length: '-4294967294'
+		};
+
+		var cb = function callbackfn(prevVal, curVal, idx, object) {
+			st.equal(object, obj, '4th argument is receiver');
+			if (idx > 1) {
+				testResult1 = false;
+			}
+
+			if (idx === 1) {
+				testResult2 = true;
+			}
+			return false;
+		};
+
+		reduceRight(obj, cb, 1);
+
+		st.ok(testResult1, 'testResult1 !== true');
+		st.equal(testResult2, false, 'testResult2 is false');
+
+		st.end();
+	});
+
+	t.test('test262: 15.4.4.22-3-25.js', function (st) {
+		var testResult1 = true;
+		var testResult2 = false;
+
+		var obj = {
+			0: 12,
+			1: 11,
+			2: 9,
+			length: -4294967294.5
+		};
+
+		var cb = function callbackfn(prevVal, curVal, idx, object) {
+			st.equal(object, obj, '4th argument is receiver');
+			if (idx > 1) {
+				testResult1 = false;
+			}
+
+			if (idx === 1) {
+				testResult2 = true;
+			}
+			return false;
+		};
+
+		reduceRight(obj, cb, 1);
+
+		st.ok(testResult1, 'testResult1 !== true');
+		st.equal(testResult2, false, 'testResult2 is false');
+
+		st.end();
+	});
 };
