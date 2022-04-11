@@ -5,6 +5,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.4](https://github.com/es-shims/Array.prototype.reduceRight/compare/v1.0.3...v1.0.4) - 2022-04-11
+
+### Commits
+
+- [actions] reuse common workflows [`aa78504`](https://github.com/es-shims/Array.prototype.reduceRight/commit/aa78504053d1fc4425dea02ebb2279d2c5b7e7e9)
+- [Fix] properly handle a large negative length [`82ca7a7`](https://github.com/es-shims/Array.prototype.reduceRight/commit/82ca7a7e85c8181db391f85d4a80f70c7998a3a6)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `aud`, `auto-changelog`, `tape` [`bf9990f`](https://github.com/es-shims/Array.prototype.reduceRight/commit/bf9990fbe1991cd20be2a0b5ff550396fd021219)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `@es-shims/api`, `safe-publish-latest`, `tape` [`51939b0`](https://github.com/es-shims/Array.prototype.reduceRight/commit/51939b0816602376ffd2c28907668ca969084be9)
+- [actions] update codecov uploader [`0d23590`](https://github.com/es-shims/Array.prototype.reduceRight/commit/0d23590e836713fddd13549ce021e44606b2eb25)
+- [Fix] properly handle only-holes array [`03ff7bc`](https://github.com/es-shims/Array.prototype.reduceRight/commit/03ff7bc695df355898ed7115b302e095bd99228e)
+- [Deps] update `es-abstract` [`78df18e`](https://github.com/es-shims/Array.prototype.reduceRight/commit/78df18e45abfe12cdba733bba828dbf733225e64)
+- [Deps] update `es-abstract` [`e5bed45`](https://github.com/es-shims/Array.prototype.reduceRight/commit/e5bed45b70016c1be05679ba751e304bc1c3327b)
+
 ## [v1.0.3](https://github.com/es-shims/Array.prototype.reduceRight/compare/v1.0.2...v1.0.3) - 2021-10-01
 
 ### Commits
