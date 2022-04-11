@@ -145,6 +145,13 @@ module.exports = function (reduceRight, t) {
 			'empty array with omitted initialValue throws'
 		);
 
+		var sparse = Array(10);
+		st['throws'](
+			function () { reduceRight(sparse, identity); },
+			TypeError,
+			'only-holes array with omitted initialValue throws'
+		);
+
 		st.end();
 	});
 

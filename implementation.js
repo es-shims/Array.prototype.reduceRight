@@ -46,6 +46,9 @@ module.exports = function reduceRight(callbackfn) {
 			}
 			k -= 1;
 		}
+		if (!kPresent) {
+			throw new $TypeError('reduceRight of empty array with no initial value');
+		}
 	}
 
 	while (k >= 0) {
