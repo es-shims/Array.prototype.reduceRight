@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.5](https://github.com/es-shims/Array.prototype.reduceRight/compare/v1.0.4...v1.0.5) - 2022-11-03
+
+### Commits
+
+- [meta] use `npmignore` to autogenerate an npmignore file [`4947d60`](https://github.com/es-shims/Array.prototype.reduceRight/commit/4947d603673ea9141812aeeb9c1c4f0115935650)
+- [Deps] update `define-properties`, `es-abstract` [`8a26405`](https://github.com/es-shims/Array.prototype.reduceRight/commit/8a26405f94720dbc52b7042baf774a43d7fafde1)
+- [actions] update rebase action to use reusable workflow [`53f54fa`](https://github.com/es-shims/Array.prototype.reduceRight/commit/53f54fa9f30490dd563a4bbee152fe0dfcd93ee9)
+- [Dev Deps] update `aud`, `functions-have-names`, `tape` [`a3900a8`](https://github.com/es-shims/Array.prototype.reduceRight/commit/a3900a87740a03ec000b4a342c4f7e29db06482b)
+
 ## [v1.0.4](https://github.com/es-shims/Array.prototype.reduceRight/compare/v1.0.3...v1.0.4) - 2022-04-11
 
 ### Commits
