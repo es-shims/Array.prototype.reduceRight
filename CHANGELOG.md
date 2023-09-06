@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.6](https://github.com/es-shims/Array.prototype.reduceRight/compare/v1.0.5...v1.0.6) - 2023-09-05
+
+### Commits
+
+- [Deps] update `define-properties`, `es-abstract` [`a56523d`](https://github.com/es-shims/Array.prototype.reduceRight/commit/a56523d589d7257ae75b1a7fa4041dd47a904fb6)
+- [Dev Deps] update `@es-shims/api`, `@ljharb/eslint-config`, `aud`, `tape` [`8b31354`](https://github.com/es-shims/Array.prototype.reduceRight/commit/8b31354ae4043d5041c47922f83a2ea3ab413976)
+
 ## [v1.0.5](https://github.com/es-shims/Array.prototype.reduceRight/compare/v1.0.4...v1.0.5) - 2022-11-03
 
 ### Commits
