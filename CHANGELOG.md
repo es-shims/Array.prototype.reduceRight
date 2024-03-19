@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.7](https://github.com/es-shims/Array.prototype.reduceRight/compare/v1.0.6...v1.0.7) - 2024-03-18
+
+### Commits
+
+- [Deps] update `call-bind`, `define-properties`, `es-abstract` [`cf5b186`](https://github.com/es-shims/Array.prototype.reduceRight/commit/cf5b18625b8a2fc1524086cf9b82e678b7a23da8)
+- [actions] remove redundant finisher [`91e66f4`](https://github.com/es-shims/Array.prototype.reduceRight/commit/91e66f41bfd4ccfa7390aaff56aca30d335684c7)
+- [Refactor] use `es-object-atoms` and `es-errors` where possible [`50cf805`](https://github.com/es-shims/Array.prototype.reduceRight/commit/50cf805532f307693cda259dc369366e5ba3b009)
+- [Dev Deps] update `aud`, `npmignore`, `tape` [`4fea25f`](https://github.com/es-shims/Array.prototype.reduceRight/commit/4fea25f5b54097ce42f8c6b8eaccc6fbfa4c2310)
+
 ## [v1.0.6](https://github.com/es-shims/Array.prototype.reduceRight/compare/v1.0.5...v1.0.6) - 2023-09-05
 
 ### Commits
